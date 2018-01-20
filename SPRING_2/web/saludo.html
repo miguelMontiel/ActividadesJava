@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>SPRING_2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Spring 2</h1>
+        <div name = "formulario">
+            <form action = "saludo.html" method = "get">
+                <table>
+                    <tr>
+                        <td>Nombre:</td>
+                        <td><input type = "text" name = "Nombres"></td>
+                    </tr>
+                    <tr>
+                        <td>Contraseña:</td>
+                        <td><input type = "password" name = "Contrasena" placeholder = "6-18 caracteres"></td>
+                    </tr>
+                    <tr>
+                        <td>Fecha de Nacimiento:</td>
+                        <td><input type = "date" name = "FechaNac"></td>
+                    </tr>
+                    <tr>
+                        <td>Correo:</td>
+                        <td><input type = "email" name = "Correo" placeholder = "Ejemplo@hotmail.com"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type = "submit" name = "Submit"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <style>
+            body
+            {
+                font-family: "Arial", Sans-serif;
+                background-color: beige;
+                text-align: center;
+            }
+            input
+            {
+                padding: .5%;
+            }
+            table
+            {
+                display: inline-block;
+            }
+            input[type = "submit"]:hover
+            {
+                cursor: pointer;
+            }
+        </style>
+        
+    </body>
+</html>
