@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="jfx1.FXMLDocumentController">
+    <children>
+        <Button fx:id="b1" layoutX="14.0" layoutY="24.0" onAction="#handleButtonAction" text="Click Me!" />
+        <Label fx:id="label" layoutX="79.0" layoutY="41.0" minHeight="16" minWidth="69" text="Hola" />
+      <Button fx:id="b2" layoutX="14.0" layoutY="75.0" mnemonicParsing="false" onAction="#handleButtonAction1" text="BOTON2" />
+      <CheckBox fx:id="chk1" layoutX="95.0" layoutY="92.0" mnemonicParsing="false" onAction="#handleButtonAction1" text="CheckBox" />
+      <RadioButton fx:id="radiobutton" layoutX="21.0" layoutY="138.0" mnemonicParsing="false" onAction="#handleButtonAction2" text="RadioButton" />
+    </children>
+</AnchorPane>
